@@ -1,0 +1,36 @@
+
+:root{
+
+    /* 整体相关的配置 */
+    --content-width:1100px;
+    --default-fontcolor:#333;
+    --hint-color:#27a;
+    --default-color:#fff;
+    --default-fontsize:.88rem;
+
+
+    /* 这是头顶nav 样式配置 */
+    --nav-color:#d5d5d5;
+    --nav-fontsize:.75rem;
+    --nav-bg:#545652;
+
+    /* 这是头内容配置 */
+
+    --header-color:##27a;
+    --header-bg:#f0f3f5;
+   
+    --carousel-button:#6d99d2;
+    --small-fontsize:.8rem;
+    --smallfont-color:#666666;
+
+    --aside-header-bg:#f2f7f6;
+
+    --grey-color:#9a9a9a;
+
+    --hot-color:#dd1944;
+
+    --yellow-color:#F8A72C;
+    --pink-color:#fbe8ec;
+    --light-color:#9b9b9b;
+    --bestlight-color:#f9f9f9;
+}

@@ -1,0 +1,61 @@
+/* 内容文件 */
+
+
+.main{
+    /* 设置百分比宽度 */
+    width: 65%;
+    padding-left: 0px;
+    /* 向右顶 */
+    padding-right:1.5rem;
+}
+
+.main-header{
+    display: flex;
+    justify-content:space-between;
+    padding: 1rem 0;
+}
+
+.graphics{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+.desc-title>span,.desc-title>p{
+    padding-right: .5rem;
+}
+
+.graphics-toggle>div{
+    color: var(--smallfont-color);
+    padding-left:.5rem;
+    font-size: var(--small-fontsize);
+}
+.graphics-toggle .button>span{
+    background-color: var(--carousel-button);
+    width: 20px;
+    height:20px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: .5rem;
+}
+.main-article{
+    padding:1.5rem 0;
+    text-align: center;
+    color: var(--default-fontcolor);
+    position: relative;
+    overflow: hidden;
+}
+
+.graphics-card{
+    text-align: center;
+    padding-bottom: 1.5rem;
+}
+.select-button{
+    background-color: #268dcd;
+    color: var(--default-color);
+    padding: .2rem .8rem;
+    border: 0;
+    font-size: var(--small-fontsize);
+    outline: 0;
+    margin-top: .25rem;
+}
+
+

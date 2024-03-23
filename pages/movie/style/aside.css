@@ -1,0 +1,39 @@
+.aside-header{
+    background-color: var(--aside-header-bg);
+    padding: 1rem;
+
+}
+.aside_info{
+    display: block;
+    width: 35%;
+}
+.aside-title{
+    padding: 1.2rem 0px;
+    display: flex;
+    align-items: center;
+}
+
+.aside-list{
+    padding: 1rem .5rem;
+}
+.aside-list>div{
+    display: flex;
+    align-items: center;
+    padding: .5rem 0;
+}
+.aside-list p{
+    margin-left: 1.2rem;
+}
+.hot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hot p{
+    display: block;
+    margin: .5rem 0;
+}
+.cooperation{
+    display: block;
+    margin: 1rem 0;
+}

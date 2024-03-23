@@ -1,0 +1,27 @@
+@media (max-width:1370px) {
+	.header-wrapper{
+		display: block;
+		text-align: center;
+	}
+	.header-wrapper>div{
+		display: block;
+		width: 100%!important;
+
+	}
+}
+@media (max-width:1100px) {
+	.main>div{
+		width: 100%;
+	}
+	.xiaomain,.xiaomain>div{
+		display: block;
+		width: 100%;
+		text-align: center;
+		padding-bottom: 1rem;
+	}
+	.qian{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+}	

@@ -1,0 +1,59 @@
+/* header 样式文件 */
+/* start */
+body{
+    --movie-fontsize:.88rem;
+    font-size: var(--movie-fontsize);
+}
+.header{
+    background-color: var(--header-bg);
+    color: var(--header-color); 
+}
+
+.header-content{
+    /* 给父元素相对定位 */
+    position: relative;
+    width: var(--content-width);
+    margin: 0 auto;
+    /* 设置内边距 */
+    padding: 1rem;
+}
+
+.header-search{
+    /* 让logo和搜索框处于同一行 */
+    display: flex;
+    /* 使其垂直居中 */
+    align-items: center;
+    /* 给上下边留内边距 */
+    padding: 1rem 0;
+}
+.header_input{
+    /* 与logo隔离距离 */
+    margin-left: 2rem;
+    /* 设置内边距 隔离输入框文字距离 */
+    padding: .2rem .6rem;
+    background-color: #fff;
+    display: block;
+    /* 给予固定宽高 */
+    width: 450px;
+    height: 25px;
+    /* 设置盒子阴影 */
+    box-shadow: 1px 1px 5px rgb(210, 210, 210);
+}
+.search_button{
+    /* 设置背景颜色 */
+    background-color: #777777;
+    width: 30px;
+}
+.header-nav li{
+   padding: 1rem 1.5rem .5rem 0;
+   font-size: var(--default-fontsize);
+}
+
+/* 另外设置定位 */
+.annual_2023{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+/* end */

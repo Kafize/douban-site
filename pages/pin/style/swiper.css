@@ -1,0 +1,54 @@
+.swiper{
+    position: relative;
+    height: 420px;
+   
+}
+.swiper-img{
+    height: 100%;
+    width: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    overflow: hidden;
+}
+.swiper-img:hover{
+    opacity: .8;
+}
+
+.swiper-bullet-box{
+    position: absolute;
+    bottom: 10px;
+    z-index: 1;
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    justify-content: center;
+    left: 0;
+    text-align: center;
+}
+.swiper-bottom-bullet{
+    display: flex;
+    height: 5px;
+    border-radius: 5px;
+    width: 25px;
+    background-color: #bcbcbd;
+    margin: .2rem;
+}
+.bullet-icon{
+    position: absolute;
+    top: 45%;   
+}
+.bullet-icon:hover{
+    opacity: .5;
+}
+
+.bullet-left{
+   
+    left: 0%;
+}
+.bullet-right{
+    right: 0%;
+}
+.swiper-bottom-bullet-active{
+    background-color: #eee;
+}
